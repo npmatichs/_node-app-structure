@@ -1,0 +1,19 @@
+{
+    "name": "React Tutorial",
+    "api": {
+        "name": "API React tutorial - Default",
+        "description": "Starter project for a REST API with Node.js, Restify & MongoDB 🔋",
+        "repository": "https://github.com/GetStream/node-restify-mongo-api",
+        "logo": "https://avatars3.githubusercontent.com/u/8597527?v=4&s=400",
+        "keywords": ["API", "Boilerplate", "MongoDB", "Restify"],
+        "addons": ["mongolab"],
+        "env": "default",
+        "port": "3000",
+        "base_url": "http://localhost:3000",
+        "db": {
+            "driver": "mongo",
+            "uri": "mongodb://127.0.0.1:27017/api"
+        }
+    },
+    "reactapp": {}
+}
